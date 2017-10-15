@@ -1,0 +1,13 @@
+Testsuite: com.siryachenko.usermanagement.UserTest
+Tests run: 2, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0,009 sec
+
+Testcase: testGetFullName took 0,002 sec
+Testcase: testGetAge took 0,001 sec
+	FAILED
+expected:<22> but was:<33>
+junit.framework.AssertionFailedError: expected:<22> but was:<33>
+	at com.siryachenko.usermanagement.UserTest.testGetAge(UserTest.java:33)
+	at org.eclipse.ant.internal.launching.remote.EclipseDefaultExecutor.executeTargets(EclipseDefaultExecutor.java:36)
+	at org.eclipse.ant.internal.launching.remote.InternalAntRunner.run(InternalAntRunner.java:456)
+	at org.eclipse.ant.internal.launching.remote.InternalAntRunner.main(InternalAntRunner.java:140)
+
